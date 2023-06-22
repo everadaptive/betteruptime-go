@@ -8,13 +8,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/everadaptive/betterstack-api-go/api"
+	"github.com/everadaptive/betteruptime-go/api"
 	"github.com/spf13/cobra"
 )
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "betterstack-api-go",
+	Use:   "betteruptime-go",
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
@@ -58,7 +58,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.betterstack-api-go.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.betteruptime-go.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

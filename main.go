@@ -3,7 +3,7 @@ Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/everadaptive/betterstack-api-go/cmd"
+import "github.com/everadaptive/betteruptime-go/cmd"
 
 func main() {
 	cmd.Execute()

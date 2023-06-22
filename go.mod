@@ -1,4 +1,4 @@
-module github.com/everadaptive/betterstack-api-go
+module github.com/everadaptive/betteruptime-go
 
 go 1.20
 
